@@ -1,0 +1,9 @@
+{
+  "name": "talent-iq",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/src/server.js"
+  }
+}
